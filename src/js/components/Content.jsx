@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
-
+import "./Header.css";
 import { connect } from 'react-redux';
 
  class Content extends React.Component{
@@ -18,7 +18,7 @@ import { connect } from 'react-redux';
         };
         var dataArray =this.props.data;
         return (
-            <div>
+            <div className="content">
                 
                 
                 <h1>{dataArray[0]}</h1>

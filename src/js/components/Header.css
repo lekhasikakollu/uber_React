@@ -1,0 +1,31 @@
+
+.dropdownRide{
+    color : pink;
+}
+
+.hideDiv{
+    display : none;
+    height : 0px;
+}
+
+.showDiv{
+    position: absolute;
+    z-index: 99;
+    
+    line-height: 60px;
+    display : block;
+    background-color: white;
+    width:1400px;
+    height : 150px;
+}
+.showDiv li{
+    list-style-type: none;
+    padding : 15px; 
+    display: inline;
+
+}
+
+.content{
+    position: absolute;
+    z-index: -99;
+}
