@@ -14,8 +14,8 @@ export default class SignUp extends React.Component{
                 width :"400px",
                 height : "450px",
                 fontFamily : "Helvetica Neue",
-                padding : "10px",
-                marginTop : '10px'
+                padding : "10px"
+                
         };
         return (
                 <div className='well'>
@@ -23,10 +23,10 @@ export default class SignUp extends React.Component{
                 <div className='formLayout' style={formStyles}>
                 <h3>SignUp</h3>
                 
-                <input defaultValue='' placeholder='First Name'/>
-                <input defaultValue='' placeholder='Last Name'/>
-                <input defaultValue='' placeholder='Email'/>
-                <input defaultValue='' placeholder='Create Password'/>
+                <input defaultValue='' placeholder='First Name' className='form-control'/>
+                <input defaultValue='' placeholder='Last Name' className='form-control'/>
+                <input defaultValue='' placeholder='Email' className='form-control'/>
+                <input defaultValue='' placeholder='Create Password' className='form-control'/>
                 <br/> <br/>
                 <button className='btn btn-success btn-lg' >SignUp For Uber -></button>
                 </div>
